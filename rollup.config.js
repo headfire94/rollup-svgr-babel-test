@@ -12,7 +12,7 @@ const config = {
       extensions: ['.js'],
     }),
     svgr({
-      babel: true,
+      babel: false,
       svgoConfig: {},
     }),
   ],
