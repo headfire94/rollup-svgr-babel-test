@@ -1,0 +1,18 @@
+{
+  "name": "svgr-test-export",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@svgr/rollup": "^6.3.1",
+    "rollup": "^2.78.1"
+  },
+  "scripts": {
+    "test": "rollup --config rollup.config.js"
+  }
+}
