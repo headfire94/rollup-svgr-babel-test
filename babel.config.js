@@ -1,9 +1,7 @@
 module.exports = (api) => {
   api.cache(true);
   
-  const plugins = [
-    '@babel/plugin-proposal-export-default-from',
-  ];
+  const plugins = [];
   const presets = [
     ['@babel/preset-env', { modules: false }],
     '@babel/preset-react',

@@ -1,1 +1,3 @@
-export { default as TestIcon } from './test.svg'
+import TestIcon from './test.svg'
+
+export default TestIcon
