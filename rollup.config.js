@@ -5,12 +5,12 @@ const config = {
   input: 'index.js',
   output: { dir: 'dist' },
   plugins: [
+    svgr({
+      babel: false,
+    }),
     babel({
       exclude: 'node_modules/**',
       extensions: ['.js', '.svg'],
-    }),
-    svgr({
-      babel: false,
     }),
   ],
 };
